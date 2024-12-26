@@ -49,8 +49,8 @@ CrowdLift is a platform where innovators can raise funds for their open-source p
 ### Installation
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Soumo275/CrowdLift.git
-   cd CrowdLift
+   git clone https://github.com/Prabuddha747/Crowd_lifting_foss.git
+   cd Crowd_lifting_foss
    ```
 
 2. **Frontend Setup:**
