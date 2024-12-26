@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Razorpay Payment Gateway</title>
+  <style>
+    .progress-bar {
+      width: 100%;
+      max-width: 500px;
+      height: 30px;
+      background-color: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 20px;
+    }
+
+    .fill {
+        height: 100%;
+        background-color: #4caf50;
+        width: 0%;
+        transition: width 0.3s;
+    }
+  </style>
+  </head>
+  <body>
+
+  <!-- progress bar  -->
+  <div class="progress-bar">
+    <div class="fill" id="fill"></div>
+  </div>
+
+  <form id="payment-form">
+    <!--  input amount  -->
+    <input type="number" id="amt" name="amt" required>
+
+    <!-- payment button -->
+    <button type="button" id="rzp-button">Pay</button>
+  </form>
+
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+</body>
+<script src="script.js" > </script>
+</html>
